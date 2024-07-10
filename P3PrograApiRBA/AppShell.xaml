@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="P3PrograApiRBA.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:view="clr-namespace:P3PrograApiRBA.View"
+    Title="P3PrograApiRBA">
+
+    <TabBar>
+        <ShellContent Title="News" ContentTemplate="{DataTemplate view:NewsPageRBA}" />
+        <ShellContent Title="Saved News" ContentTemplate="{DataTemplate view:SavedNewsPageRBA}" />
+    </TabBar>
+</Shell>
+
+
